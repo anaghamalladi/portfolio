@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anagha Malladi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">AM</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="greeting">Hi, I'm</p>
+      <h1>Anagha Malladi</h1>
+      <h2><span id="typing-title"></span><span class="cursor">|</span></h2>
+      <p class="bio">I don't just write code — I live for it. That obsession started young and never stopped. It drove me through my undergrad, all the way to earning my Master's in Computer Science at <span class="highlight">Sacramento State</span>, and now I get to contribute to <span class="highlight">Disney–Hulu</span>'s Ads Platform team as Data Engineer where I've been building ETL/ELT pipelines in Python and Java, working with cloud-native microservices on <span class="highlight">AWS and Azure</span> for audience segmentation, and helping improve the reliability of ad data pipelines at scale. My proudest moment? Taking RRT — a simple path planning algorithm — and unlocking a dimension it was never designed to explore, making it navigate tight, real-world spaces with precision. That's the kind of problem I love. I'm hungry, hands-on, and actively looking for my next challenge in <span class="highlight">Software Engineering</span>, <span class="highlight">Full Stack</span>, or <span class="highlight">Data Engineering</span>. If you need someone who gets things done and loves every second of it — let's talk.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn"><i class="fas fa-code"></i> View Projects</a>
+        <a href="Anagha_Malladi_SDE_Resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Download Resume</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-wrapper">
+        <img src="photo.jpg" alt="Anagha Malladi" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a software engineer and data enthusiast with a Master's in Computer Science from <span class="highlight">California State University, Sacramento</span>. My journey has taken me from building research platforms at IIIT Hyderabad to contributing to ad-tech infrastructure at <span class="highlight">Disney–Hulu</span>.</p>
+        <p>I thrive at the intersection of <span class="highlight">data engineering</span> and <span class="highlight">software development</span> — whether that's designing ETL pipelines that process millions of records, building cloud-native microservices, or crafting full stack web applications from scratch.</p>
+        <p>I'm currently based in the USA and actively looking for full-time opportunities in <span class="highlight">Data Engineering</span>, <span class="highlight">Backend Development</span>, or <span class="highlight">Full Stack Engineering</span>. I bring a strong foundation in Python, Java, AWS, and distributed systems — along with a genuine curiosity for solving hard problems at scale.</p>
+        <p>When I'm not coding, I'm exploring new technologies, working on personal projects, and continuously pushing myself to grow as an engineer.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-box">
+          <span class="stat-num" data-target="2">0+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num" data-target="5">0+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num" data-target="10">0+</span>
+          <span class="stat-label">Technologies</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">MS</span>
+          <span class="stat-label">Computer Science</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Aug 2025 – Present</span>
+          <h3>Data Engineer — Ads Platform & Audience Data</h3>
+          <h4>The Walt Disney Company – Hulu Platform · Remote, USA</h4>
+          <ul class="timeline-list">
+            <li>Designed and implemented scalable ETL/ELT pipelines in Python and Java to ingest, validate, and transform high-volume audience and ad interaction data across Disney and Hulu streaming products — improving targeting accuracy and reducing pipeline failure rates.</li>
+            <li>Built event-driven streaming pipelines using Apache Kafka for real-time audience segmentation; engineered cloud-native microservices on AWS (EC2, ECS, S3, RDS) and Azure (AKS, Azure SQL) supporting millions of daily ad delivery events.</li>
+            <li>Designed and optimized data models for large-scale structured and unstructured datasets using SQL and MongoDB; implemented data validation and quality checks ensuring accuracy, completeness, and consistency.</li>
+            <li>Improved pipeline observability via structured logging and metrics dashboards enabling proactive issue resolution in production; built CI/CD automation with Jenkins and Docker including automated testing gates.</li>
+            <li>Collaborated with data scientists and PMs to translate business requirements into robust, scalable data engineering solutions.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">May 2021 – May 2023</span>
+          <h3>Software Engineer / Research Assistant</h3>
+          <h4>IIIT Hyderabad · India</h4>
+          <ul class="timeline-list">
+            <li>Built and optimized Python and SQL data pipelines for research data ingestion and transformation; integrated Elasticsearch for high-performance full-text search across thousands of records.</li>
+            <li>Developed REST APIs and backend services in Java and Python; implemented data validation and quality checks across research datasets.</li>
+            <li>Collaborated cross-functionally with research teams to deliver scalable, well-documented solutions using Git, CI/CD, and Agile workflows.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <i class="fas fa-gamepad"></i>
+          <div class="project-links">
+            <a href="https://anaghamalladi.github.io/wordle-app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            <a href="https://github.com/anaghamalladi/wordle-app" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Wordle App</h3>
+        <p>Yes, I built Wordle. But not just the game — a full stack version with a Python Flask backend serving a REST API, real-time word validation, flip animations, and a stats tracker. Deployed and live. Go play it.</p>
+        <div class="tags">
+          <span>Python</span><span>Flask</span><span>JavaScript</span><span>CSS</span><span>REST API</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <i class="fas fa-car"></i>
+          <div class="project-links">
+            <a href="https://github.com/anaghamalladi/Improving-RRT-Star-2D-Parking-Route-Planning" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>RRT* Parking Route Planner</h3>
+        <p>Everyone said RRT* couldn't handle tight parking spaces. I proved them wrong. Took a basic path planning algorithm and pushed it into a dimension it was never designed for — achieving 100% parking success where the baseline got 0%. Oh, and made it 15x faster while I was at it.</p>
+        <div class="tags">
+          <span>Python</span><span>NumPy</span><span>Matplotlib</span><span>Pygame</span><span>MATLAB</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <i class="fas fa-mobile-alt"></i>
+          <div class="project-links">
+            <a href="https://github.com/anaghamalladi/instagram-tracker" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Instagram Activity Tracker</h3>
+        <p>A prototype of what I want to eventually build — an app that automatically tracks your Instagram activity. For now, you manually start and stop timers per activity (Reels, Messages, Posts, Stories) and it breaks down exactly where your time goes. The real version that hooks into Instagram directly? That's coming.</p>
+        <div class="tags">
+          <span>JavaScript</span><span>HTML</span><span>CSS</span><span>localStorage</span><span>Chart.js</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <i class="fas fa-university"></i>
+          <div class="project-links">
+            <a href="https://github.com/anaghamalladi/PyBank-Banking-Web-App" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>PyBank Banking Web App</h3>
+        <p>A fully functional banking app built from scratch in Python. Create accounts, deposit, withdraw, track transactions — all the things a real bank does, minus the hidden fees. Built to understand how real financial systems work under the hood.</p>
+        <div class="tags">
+          <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Data Engineering</h4>
+        <div class="skill-tags">
+          <span>Python</span><span>Java</span><span>SQL</span><span>Apache Kafka</span><span>Apache Spark</span><span>PySpark</span><span>ETL/ELT Pipelines</span><span>Event-Driven Architecture</span><span>Streaming Systems</span><span>Batch Processing</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Cloud & DevOps</h4>
+        <div class="skill-tags">
+          <span>AWS (EC2, ECS, S3, RDS)</span><span>Azure (AKS, Azure SQL)</span><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>CI/CD</span><span>Git</span><span>Infrastructure Automation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Databases & Storage</h4>
+        <div class="skill-tags">
+          <span>PostgreSQL</span><span>MongoDB</span><span>Elasticsearch</span><span>SQL</span><span>NoSQL</span><span>Data Warehousing</span><span>Data Lakes</span><span>Query Optimization</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>CS Fundamentals</h4>
+        <div class="skill-tags">
+          <span>Distributed Systems</span><span>Algorithms</span><span>System Design</span><span>OOP</span><span>Concurrency</span><span>REST APIs</span><span>Microservices</span><span>JWT</span><span>OAuth 2.0</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Languages & Frameworks</h4>
+        <div class="skill-tags">
+          <span>Python</span><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Flask</span><span>Bash</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid">
+      <div class="education-card">
+        <div class="edu-top">
+          <i class="fas fa-graduation-cap"></i>
+          <span class="timeline-date">Aug 2023 – May 2025</span>
+        </div>
+        <h3>M.S. in Computer Science</h3>
+        <h4>California State University, Sacramento</h4>
+        <p>Focused on algorithms, distributed systems, and system design. Thesis on improving RRT* for autonomous vehicle parking route planning.</p>
+      </div>
+      <div class="education-card">
+        <div class="edu-top">
+          <i class="fas fa-university"></i>
+          <span class="timeline-date">Jul 2019 – May 2023</span>
+        </div>
+        <h3>B.Tech in Computer Science Engineering</h3>
+        <h4>KL University, Hyderabad, India</h4>
+        <p>Built a strong foundation in computer science fundamentals, software engineering, and data structures. Developed a passion for building scalable systems and solving complex problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-sub">I'm open to new opportunities — feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:anaghamalladi1205@gmail.com"><i class="fas fa-envelope"></i> anaghamalladi1205@gmail.com</a>
+      <a href="https://linkedin.com/in/anagha-malladi" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/anagha-malladi</a>
+      <a href="https://github.com/anaghamalladi" target="_blank"><i class="fab fa-github"></i> github.com/anaghamalladi</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by Anagha Malladi</p>
+  </footer>
+
+  <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
