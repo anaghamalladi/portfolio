@@ -899,3 +899,22 @@ footer {
   .btn { width: 100%; justify-content: center; }
   .about-stats { grid-template-columns: 1fr 1fr; }
 }
+/* LETTER SPACING FADE */
+.letter-fade {
+  opacity: 0;
+  letter-spacing: 0.4rem;
+  transition: opacity 1s ease, letter-spacing 1s cubic-bezier(0.22,1,0.36,1);
+}
+
+.letter-fade.letter-visible {
+  opacity: 1;
+  letter-spacing: 0.2rem;
+}
+
+/* CLIP REVEAL override for headings */
+.section-heading.clip-reveal {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, #fff 40%, var(--muted) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
